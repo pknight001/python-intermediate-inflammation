@@ -6,7 +6,6 @@ exceptiongroup
 flake8
 fonttools
 importlib-metadata
-inflammation-analysis
 iniconfig
 kiwisolver
 matplotlib
