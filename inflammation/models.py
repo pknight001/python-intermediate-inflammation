@@ -85,9 +85,12 @@ class Person:
 
 class Patient(Person):
     """A patient in an inflammation study."""
-    def __init__(self, name):
+    def __init__(self, name, observations=None):
         super().__init__(name)
         self.observations = []
+
+        if observations is not None:
+            self.observations = observations
 
     def add_observation(self, value, day=None):
         if day is None:
@@ -118,12 +121,12 @@ class Doctor(Person):
         for patient in self.patients:
             print(patient)
 
-alice = Patient('Alice')
-bob = Patient('Bob')
-
-obs = alice.add_observation(3)
-
-dave = Doctor('Dave')
-dave.add_patient(alice)
-dave.add_patient(bob)
-dave.list_patients()
+# alice = Patient('Alice')
+# bob = Patient('Bob')
+#
+# obs = alice.add_observation(3)
+#
+# dave = Doctor('Dave')
+# dave.add_patient(alice)
+# dave.add_patient(bob)
+# dave.list_patients()
