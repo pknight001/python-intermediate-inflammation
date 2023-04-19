@@ -6,6 +6,3 @@ class Book:
 
     def __str__(self):
         return self.title + ' by ' + self.author
-
-#book = Book('A Book', 'Me')
-#print(book)
