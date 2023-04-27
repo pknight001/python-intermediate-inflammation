@@ -1,3 +1,5 @@
+BE AWARE - THIS IS NOT A REAL PROJECT - IT IS JUST A TEST REPO CREATED DURING A SOFTWARE DEVELOPMENT TRAINING COURSE.
+
 # Inflam
 
 ![Continuous Integration build in GitHub Actions](https://github.com/pknight001/python-intermediate-inflammation/workflows/CI/badge.svg?branch=main)
